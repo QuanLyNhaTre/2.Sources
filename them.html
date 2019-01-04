@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Website quản lý nhà trẻ tư nhân</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="quanly.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="quanly.js"></script>
+</head>
+<body style="background-color: 	#B0E0E6">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2">
+                <img src="image/logo1.png" id="logo"/>
+            </div>
+            <div class="col-md-10">
+                <div class="row">
+                    <div class="col-md-3">
+                         <a href="admin.php">
+                        <button type="button" class="btn btn-primary">
+                            Trang chủ
+                        </button>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="dropdown">
+                             
+                            <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown">
+                                Tính năng
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                 <a href="quanlyhs.html">Quản lý học sinh</a><br><a href="#">Theo dõi đánh giá</a><br><a href="khauphandinhduong.html">Khẩu phần dinh dưỡng</a><br><a href="#">Hoạt động vui chơi</a><br><a href="#">Quản lý thu chi</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+            <a href="lienhe2.html">
+                        <button type="button" class="btn btn-primary">
+                            Liên hệ-Góp ý
+                        </button>
+            </a>
+                    </div>
+            <div class="col-md-3">
+                    <a href="dangnhap.html">	 
+            <button type="button" class="btn btn-primary">
+              Đăngnhập
+            </button>
+            </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><br>
+    <b><p id="dn" style="text-align: center;">Mời bạn nhập thông tin</p></b>
+            <form id="capnhat"><br>
+                <div id="thongtin">
+                Mã học sinh: 
+                 <input type="text" id="mhs" style="margin-left: 20px"><br><br>
+                Mã phụ huynh
+                 <input type="text" id="maph" style="margin-left: 12px"><br><br>
+                 Họ và tên: 
+                 <input type="text" id="hoten" style="margin-left: 36px"><br><br>
+                 Lớp: 
+                 <input type="text" id="lop" style="margin-left: 70px"><br><br>
+                 Ngày sinh: 
+                 <input type="date" id="ngaysinh" style="margin-left: 32px"><br><br>
+                 Chiều cao:  
+                 <input type="text" id="chieucao" style="margin-left: 30px"><br><br>
+                 Cân nặng:  
+                 <input type="text" id="cannang" style="margin-left: 32px"><br><br>
+                 Giới tính: 
+                 <input type="text" id="gioitinh" style="margin-left: 40px"><br><br>
+                 Ngày nhập học:
+                 <input type="date" id="nhaphoc"><br><br>
+                 Giáo viên: 
+                 <input type="text" id="giaovien" style="margin-left: 35px"><br><br>
+                </div>
+                 <input type="button" value="Thêm" id= "btnthem" style="margin-left: 40%";>
+                
+           </form>
+
+
+</body>
+</html>
